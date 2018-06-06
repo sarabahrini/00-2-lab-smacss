@@ -1,4 +1,4 @@
-
+ 
 
 #logo {
     float: left;
@@ -37,6 +37,15 @@ nav ul {
     padding-right: 2px;
   }
 
+  nav, article, aside, footer section {
+    margin: 0 auto;
+    width: 900px;
+  }
+  
+  nav {
+    margin-top: 25px;
+  }
+
   hr {
     clear: both;
     border: 0;
@@ -48,4 +57,13 @@ nav ul {
     margin-top: 50px;
     font-family: 'Oswald', sans-serif;
     font-size: 2.5em;
+  } 
+  ol, ul {
+    list-style: none;
+  }
+
+
+  /* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
   }
